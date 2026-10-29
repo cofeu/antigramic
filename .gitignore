@@ -1,0 +1,34 @@
+# Build directory and generated kernel/boot images
+/build/
+*.o
+*.elf
+*.bin
+*.iso
+*.img
+*.log
+*.sys
+*.EFI
+
+# Downloaded boot tools and generated EFI image
+/limine
+/limine-*
+/iso_root/BOOTX64.EFI
+
+# Obsolete boot experiments and their staging trees
+/test_*
+/minimal_*
+/loader_stub.*
+/boot.asm
+/boot32.*
+/grub.cfg
+/limine.cfg
+/iso/
+/iso_root/
+/limine_iso/
+
+# Python/editor temporary files
+__pycache__/
+*.py[cod]
+*.swp
+*.tmp
+.DS_Store
